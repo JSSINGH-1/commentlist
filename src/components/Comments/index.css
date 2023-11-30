@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.imagee {
+  width: 250px;
+}
+
+.mainContainer {
+  height: 100vh;
+  width: 90%;
+  margin: auto;
+  box-shadow: 2px 2px 5px #888888;
+}
+.detaildContainer {
+  margin: auto;
+  width: 85%;
+  /* background-color: yellow; */
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border: none;
+  border-bottom: 1px solid grey;
+}
+
+.Card {
+  /* background-color: yellow; */
+  width: 400px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 15px;
+}
+.para {
+  margin-bottom: 9px;
+  font-family: Roboto;
+}
+
+.buton {
+  margin-top: 9px;
+  padding: 5px;
+  background-color: #0284c7;
+  border: none;
+  border-radius: 5px;
+  font-size: 10px;
+  color: white;
+}
+.searchInput {
+  margin-bottom: 15px;
+}
+
+.commentCont {
+  /* background-color: yellow; */
+  width: 65%;
+  margin: auto;
+  border: 1px solid gray;
+}
+
+.commentListCont {
+  width: 99%;
+  border: none;
+}
